@@ -1,0 +1,183 @@
+/*general rules*/
+
+* {
+  box-sizing: border-box;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: circle outside none;
+}
+
+
+
+/*sticky footer*/
+
+.main-wrap {
+  min-height: calc(100vh - 72px);
+}
+
+
+
+/*navigation*/
+
+#navbarNavAltMarkup {
+  padding-left: 8%
+}
+
+.navbar-toggler {
+  font-size: 1.0rem;
+}
+
+.navi {
+  background-color: #fff;
+}
+
+.nav-item {
+  margin-right: 25px
+}
+
+.navi-dropdown-list a:nth-child(4) {
+  display: none;
+}
+
+.navi-logo h1 {
+  margin: 0;
+}
+
+.navi-logo p {
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  text-align: center;
+}
+
+.navbar-toggler {
+  order: 100;
+}
+
+.navi-phone a {
+  color: rgba(0, 0, 0, .5) !important;
+  text-decoration: none;
+}
+
+.navi-phone a:hover {
+  color: rgba(0, 0, 0, .7) !important;
+}
+
+.navi-phone p {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/*gallery*/
+
+.gallery-list a {
+  color: rgba(0, 0, 0, .5) !important;
+  text-decoration: none;
+}
+
+.gallery-list a:hover {
+  color: rgba(0, 0, 0, .7) !important;
+}
+
+
+
+/*footer*/
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.icon1,
+.icon3 {
+  width: 20px
+}
+
+.icon2 {
+  width: 15px;
+  margin-right: 5px;
+}
+
+.icon1 {
+  margin-left: auto;
+}
+
+.text-muted {
+  margin-right: auto
+}
+
+.conacts {
+  text-align: center;
+}
+
+.conacts:nth-child(4) {
+  margin-top: -15px;
+}
+
+
+/*call-back*/
+
+.call-back {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.call-back {
+  text-align: center;
+}
+
+
+
+
+@media (max-width: 767px) {
+  .navi-logo h1 {
+    font-size: 1.5em;
+  }
+
+  .navi-logo p {
+    font-size: 0.7em
+  }
+
+  #navbarNavAltMarkup {
+    padding-left: 0;
+  }
+
+}
+
+
+
+@media (max-width: 500px) {
+
+  .navi-arrows {
+    display: none;
+  }
+
+  #carouselExampleFade {
+    display: none;
+  }
+}
+
+
+
+@media (max-width: 400px) {
+  .navi-phone {
+    display: none;
+  }
+
+  .navi-dropdown-button {
+    margin-left: auto;
+  }
+
+  .navi-dropdown-list a:nth-child(4) {
+    display: block;
+  }
+}
