@@ -26,7 +26,7 @@ ul {
 /*navigation*/
 
 #navbarNavAltMarkup {
-  padding-left: 8%
+  padding-left: 8%;
 }
 
 .navbar-toggler {
@@ -38,7 +38,7 @@ ul {
 }
 
 .nav-item {
-  margin-right: 25px
+  margin-right: 25px;
 }
 
 .navi-dropdown-list a:nth-child(4) {
@@ -98,7 +98,7 @@ ul {
 
 .icon1,
 .icon3 {
-  width: 20px
+  width: 20px;
 }
 
 .icon2 {
@@ -111,7 +111,7 @@ ul {
 }
 
 .text-muted {
-  margin-right: auto
+  margin-right: auto;
 }
 
 .conacts {
@@ -144,7 +144,7 @@ ul {
   }
 
   .navi-logo p {
-    font-size: 0.7em
+    font-size: 0.7em;
   }
 
   #navbarNavAltMarkup {
