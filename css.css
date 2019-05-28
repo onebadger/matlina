@@ -37,6 +37,16 @@ ul {
   background-color: #fff;
 }
 
+.logo a {
+  color: rgba(0,0,0,.5)!important;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.logo a:hover {
+  color: rgba(0,0,0,.6)!important;
+}
+
 .nav-item {
   margin-right: 25px;
 }
