@@ -5,7 +5,7 @@ if(isset($_POST['user_first_name']) && empty($_POST['user_second_name'])) {
     .'Email: ' .$_POST['user_email'] . "\n"
     .'Phone: ' .$_POST['user_phone'] . "\n"
     .'Comment: ' .$_POST['user_comment'];
-  mail('yakov.barsukov@gmail.com', 'matlina.ru call back form', $message);
+  mail('svetik_msk@mail.ru', 'matlina.ru call back form', $message);
 } else {
   header('Refresh: 3; URL=index.html');
   exit(0);
