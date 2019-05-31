@@ -15,12 +15,34 @@ ul {
 
 
 
+.back-to-top {
+  cursor: pointer;
+  position: fixed;
+  bottom: 50px;
+  right: 25px;
+/*  display: none;*/
+  background-color: rgba(0,0,0,.01);
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #aaa;
+  
+}
+
+.back-to-top:hover {
+  background-color: rgba(0,0,0,.06);
+}
+
+.back-to-top img {
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+
 /*sticky footer*/
 
 .main-wrap {
   min-height: calc(100vh - 72px);
 }
-
 
 
 /*navigation*/
@@ -38,13 +60,13 @@ ul {
 }
 
 .logo a {
-  color: rgba(0,0,0,.5)!important;
+  color: rgba(0, 0, 0, .5) !important;
   cursor: pointer;
   text-decoration: none;
 }
 
 .logo a:hover {
-  color: rgba(0,0,0,.6)!important;
+  color: rgba(0, 0, 0, .6) !important;
 }
 
 .nav-item {
