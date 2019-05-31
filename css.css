@@ -38,13 +38,13 @@ ul {
 }
 
 .logo a {
-  color: rgba(0,0,0,.5)!important;
+  color: rgba(0, 0, 0, .5) !important;
   cursor: pointer;
   text-decoration: none;
 }
 
 .logo a:hover {
-  color: rgba(0,0,0,.6)!important;
+  color: rgba(0, 0, 0, .6) !important;
 }
 
 .nav-item {
@@ -104,6 +104,7 @@ ul {
 .footer-container {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 .icon1,
@@ -120,10 +121,6 @@ ul {
   margin-left: auto;
 }
 
-.text-muted {
-  margin-right: auto;
-}
-
 .conacts {
   text-align: center;
 }
@@ -132,6 +129,17 @@ ul {
   margin-top: -15px;
 }
 
+.second-menu span {
+  padding-left: 30px;
+}
+
+.second-menu a {
+  color: rgba(0, 0, 0, .5);
+}
+
+.second-menu a:hover {
+  color: rgba(0, 0, 0, .7);
+}
 
 /*call-back*/
 
@@ -148,6 +156,20 @@ ul {
 
 
 
+@media(max-width: 1024px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .second-menu span {
+    padding-left: 0;
+    margin: 0 7px
+  }
+}
+
+
+
 @media (max-width: 767px) {
   .navi-logo h1 {
     font-size: 1.5em;
@@ -160,7 +182,6 @@ ul {
   #navbarNavAltMarkup {
     padding-left: 0;
   }
-
 }
 
 
