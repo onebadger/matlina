@@ -157,10 +157,15 @@ ul {
 
 .second-menu a {
   color: rgba(0, 0, 0, .5);
+  text-decoration: none;
 }
 
 .second-menu a:hover {
   color: rgba(0, 0, 0, .7);
+}
+
+.active-link {
+  color: rgba(0, 0, 0, .9)!important;
 }
 
 /*call-back*/
@@ -179,6 +184,11 @@ ul {
 
 
 @media(max-width: 1024px) {
+  
+  .main-wrap {
+  min-height: calc(100vh - 120px);
+}
+  
   .footer-container {
     flex-direction: column;
     align-items: center;
