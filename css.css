@@ -190,7 +190,7 @@ ul {
 @media(max-width: 1024px) {
   
   .main-wrap {
-  min-height: calc(100vh - 132px);
+  min-height: calc(100vh - 136px);
 }
   
   .footer-container {
